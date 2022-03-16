@@ -1,5 +1,5 @@
 function getRandomURL() {
-    chrs = 'abdehkmnpswxzABDEFGHKMNPQRSTWXZ123456789';
+    chrs = '0123456789';
     var str = '';
     for (var i = 0; i < 6; i++) {
         var pos = Math.floor(Math.random() * chrs.length);
