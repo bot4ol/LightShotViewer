@@ -11,7 +11,6 @@ function getRandomURL() {
 RandomURL=getRandomURL()
 var linkToPhoto=RandomURL.link(RandomURL)
 document.write(linkToPhoto)
-document.write("ЛОДКА ПРИВЕТ!!!")
 if (getRandomURL=="https://prnt.sc/148822"){
     console.log("НИХУЯ СЕБЕ")   
 }
