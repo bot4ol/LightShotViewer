@@ -11,4 +11,7 @@ function getRandomURL() {
 RandomURL=getRandomURL()
 var linkToPhoto=RandomURL.link(RandomURL)
 document.write(linkToPhoto)
+if (getRandomURL=="https://prnt.sc/148822"){
+    console.log("НИХУЯ СЕБЕ")   
+}
 console.log("Who this reading is gay")
